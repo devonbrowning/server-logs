@@ -1,0 +1,1 @@
+INSERT INTO "public"."errors_by_path" ("path", "404_errors", "500_errors", "total_errors") VALUES ('/list', '1', '0', '1'), ('/search', '0', '1', '1'), ('/video/e456Y8tv3', '0', '1', '1'), ('/video/r335Q7vg9', '1', '0', '1');

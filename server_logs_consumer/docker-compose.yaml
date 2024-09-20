@@ -1,0 +1,15 @@
+version: "3"
+services:
+  spark:
+    image: gc-pyspark-kafka:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    networks:
+      - confluent-local-network
+
+networks:
+  confluent-local-network:
+    name: confluent-local-network
+    external: true
